@@ -1,0 +1,121 @@
+body {
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: Arial, sans-serif;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 0;  
+    height: 100vh;
+}
+
+.main {
+    display: grid;  
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.text-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+}
+
+.text-side h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 44px;
+    font-weight: 650;
+    color: white;
+    line-height: 49px;
+    
+}
+
+.text-side p {
+    font-family: "Poppins", sans-serif;
+    margin-left:62px;
+    line-height: 23px;
+    font-size: 14px;
+    font-weight: 600;
+    color:  rgb(220, 215, 215);
+    margin-top: -5px;
+}
+
+.form-side {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:white;
+    border-radius: 10px;
+    width: 64%;
+    margin-top: 65px;
+    padding-top: 25px;
+    height: 400px;
+    box-shadow: 2px 4px 9px rgba(83, 82, 82, 0.618);
+
+}
+
+
+form input::placeholder {
+    font-family: "Poppins", sans-serif;
+    color: #161414;
+    opacity: 1;
+
+}
+
+
+form input {
+    padding: 15px;
+    margin: 10px 0; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 72%; 
+
+
+}
+
+form button {
+    padding: 15px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 79%; 
+    box-shadow: 4px 4px 5px rgba(12, 67, 48, 0.618);
+    font-weight: 600;    
+    margin-bottom: 10px;
+
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    position: absolute;
+    top:96px;
+    padding: 15px;
+    color: #ffffff;
+    right:289px;
+    background-color:  hsl(248, 32%, 49%);
+    font-weight: bold;
+    text-align: center;
+    width: 29%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(12, 67, 48, 0.618);
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+
+    
+}
+
+.form-side p {
+    font-size: 10px;
+    color:hsl(246, 25%, 77%);
+    font-weight: 600;
+
+}
